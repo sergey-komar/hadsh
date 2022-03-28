@@ -1,0 +1,25 @@
+.meka{
+    background: url('../images/home/bg-meka.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.meka__box {
+    display: flex;
+    justify-content: space-between;
+}
+.meka__box-content {
+    max-width: 900px;
+}
+.meka__box-title {
+    margin-bottom: 65px;
+    font-size: 42px;
+    font-weight: 700;
+}
+.meka__box-text {
+    max-width: 740px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}

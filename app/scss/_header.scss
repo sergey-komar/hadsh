@@ -1,0 +1,44 @@
+.header__top {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__item-sity {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #d0d2d8;
+}
+.header__item-phone {
+    font-size: 20px;
+    color: #fff;
+}
+.header__bottom {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: #065775;
+}
+.header__bottom-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__list-item + .menu__list-item{
+    margin-left: 80px;
+}
+.menu__list-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header__social {
+  display: flex;
+  justify-content: space-between;
+}
+.header__social-img + .header__social-img{
+    margin-left: 15px;
+}

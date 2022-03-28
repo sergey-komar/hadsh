@@ -1,0 +1,22 @@
+.icon {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.icon__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 35px;
+}
+.icon__block-item {
+    flex-basis: 400px;
+    display: flex;
+    align-items: center;
+}
+.icon__block-text {
+    margin-left: 15px;
+    font-size: 16px;
+    color: $black;
+    font-weight: 400;
+}

@@ -1,0 +1,74 @@
+.heading {
+    background: url('../images/home/samolet-1.png') no-repeat top;
+    background-size: cover;
+    min-height: 100vh;
+}
+.heading__block {
+    text-align: center;
+}
+.heading__text {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-style: italic;
+    color: #d0d2d8;
+}
+.heading__title {
+    margin-bottom: 30px;
+    font-size: 68px;
+    font-weight: 700;
+    color: #d2a23a;
+}
+.heading__subtitle {
+  margin-bottom: 70px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+.heading__form {
+    max-width: 880px;
+    padding: 30px;
+   background: url('../images/home/uzor.png') no-repeat center;
+   background-size: cover;
+  border-radius: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.heading__form-title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+}
+.heading__form-text {
+    max-width: 389px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #fff;
+}
+
+.form__input {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 310px;
+    height: 58px;
+    border: none;    
+}
+.form__input::placeholder{
+    font-weight: 700;
+    color: #000;
+}
+.form__btn {
+    display: block;
+    background-color: rgb(210, 162, 58);
+    width: 308px;
+    height: 58px;
+    border-radius: 30px;
+    border: none;
+}

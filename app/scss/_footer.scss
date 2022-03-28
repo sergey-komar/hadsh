@@ -1,0 +1,79 @@
+.footer{
+    background-color: #065775;
+    padding-top: 100px;
+    padding-bottom: 55px;
+    color: $black;
+}
+.footer__title {
+    margin-bottom: 76px;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 300;
+    color: $white;
+}
+.footer__map {
+    margin-bottom: 55px;
+}
+.footer__inner {
+    padding-top: 65px;
+    padding-bottom: 75px;
+    background-color: #d8c69d;
+}
+.footer__inner-box {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__inner-item {
+    max-width: 300px;
+}
+.footer__inner-logo {
+    margin-bottom: 35px;
+}
+.footer__inner-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    font-style: italic;
+}
+.footer__menu {
+}
+.footer__menu-item {
+    margin-bottom: 25px;
+}
+.footer__menu-link {
+    font-size: 14px;
+    color: $black;
+    text-transform: uppercase;
+}
+.footer__inner-info {
+    margin-bottom: 50px;
+}
+.footer__inner-sity {
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.footer__inner-phone {
+    color: $black;
+    font-weight: 600;
+}
+.footer__inner-email {
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer__inner-contact {
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer__inner-social {
+    display: flex;
+}
+.footer__inner-social img{
+    margin-right: 5px;
+}
+.footer__company {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
