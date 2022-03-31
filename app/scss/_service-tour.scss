@@ -1,0 +1,42 @@
+.service-tour {
+    padding-top: 120px;
+    padding-bottom: 110px;
+    background: url('../images/home/service-tour/service-bg.jpg') no-repeat center;
+    background-size: cover;
+    color: $black;
+}
+.service-tour__title {
+    margin-bottom: 70px;
+    max-width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+}
+.service-tour__block {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-tour__item {
+    width: 215px;
+    text-align: center;
+}
+.service-tour__item-img {
+    margin-bottom: 15px;
+}
+.service-tour__item-title {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.heading__form.service-form{
+    align-items: center;
+}
+.heading__form-text.service__text{
+    max-width: 350px;
+    font-size: 28px;
+    font-weight: 600;
+}
+

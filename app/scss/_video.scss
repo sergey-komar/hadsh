@@ -1,0 +1,34 @@
+.video-fashion {
+   background-color: #f6f6f6;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   color: $black;
+}
+
+.video-fashion__title{
+    margin-bottom: 110px;
+    font-size: 42px;
+    line-height: 34px;
+    font-weight: 600;
+    text-align: center;
+}
+.video-fashion__subtitle{
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.video-fashion__inner {
+    display: flex;
+    align-items: center;
+}
+.video-fashion__popup {
+}
+.video-fashion__play {
+}
+.video-fashion__content {
+    max-width: 495px;
+    margin-right: 185px;
+}
+.video-fashion__text {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,50 @@
+.questions{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.questions__wrapper{
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 1px solid #d9c69c;
+    color: $black;
+}
+.questions__title{
+    margin-bottom: 60px;
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+    color: $black;
+    text-align: center;
+}
+.questions-accardion__btn {
+    margin-bottom: 20px;
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+}
+.questions-accardion__title{
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.questions-accardion__text{
+    margin-left: 40px;
+}
+.questions-accardion__title::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/home/arrow-questions.png');
+    background-repeat: no-repeat;
+    left: 0;
+    top: 3px;
+}
+.questions-accardion__content {
+    display: none;
+}

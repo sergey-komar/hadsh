@@ -22,6 +22,7 @@
 .header__bottom-inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .menu__list {
     display: flex;
@@ -35,10 +36,29 @@
     text-transform: uppercase;
     color: #fff;
 }
+
+.menu__list-link--active{
+    background-color: #006666;
+    padding: 29px; 
+}
 .header__social {
   display: flex;
   justify-content: space-between;
 }
 .header__social-img + .header__social-img{
     margin-left: 15px;
+}
+
+
+
+
+@media(max-width:890px){
+    .header__item-phone{
+        font-size: 18px;
+    }
+}
+@media(max-width:890px){
+    .header__top{
+        display: none;
+    }
 }

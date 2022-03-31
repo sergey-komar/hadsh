@@ -1,0 +1,41 @@
+.infographics{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.slick-prev-info,
+.slick-next-info{
+    padding: 0;
+    font-size: 0;
+    border: none;
+}
+.slick-prev-info::before,
+.slick-next-info::before{
+    content:'';
+    position: absolute;
+    width: 56px;
+    height: 70px;
+    z-index: 10;
+    top: 50%;
+}
+.slick-prev-info::before{
+    background-image: url('../images/home/arrow/left-arrow-info.png');
+    background-repeat: no-repeat;
+    left: 2%;
+}
+.slick-next-info::before{
+    background-image: url('../images/home/arrow/right-arrow-info.png');
+    background-repeat: no-repeat;
+    right: 0;
+}
+.infographics__slider-box{
+    display: flex !important;
+    justify-content: center;
+}
+.infographics__title{
+    margin-bottom: 90px;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+    color: $black;
+    text-align: center;
+}

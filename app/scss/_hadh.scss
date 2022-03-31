@@ -1,0 +1,275 @@
+.hadh {
+    padding-top: 115px;
+    padding-bottom: 110px;
+    color: $black;
+}
+
+.hadh__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+blockquote{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.hadh__content {
+    max-width: 840px;
+    margin-left: 80px;
+}
+.hadh__content-text {
+    margin-bottom: 75px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.hadh__content-text:last-child{
+    margin-bottom: 0;
+}
+.hadh__title {
+    margin-top: 130px;
+    margin-bottom: 75px;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.hadh__block {
+    margin-bottom: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+}
+.hadh__block-item {
+    margin-bottom: 55px;
+    width: 290px;
+    text-align: center;
+}
+
+.hadh__block-text {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+}
+.hadh__block-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* smallhadh */
+.small-hadh {
+    background: url('../images/small-hadh/smallhadh-bg.jpg') no-repeat center;
+    background-size: cover;
+    padding: 70px;
+    border-radius: 30px;
+}
+
+.small-hadh__text {
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 34px;
+}
+.small-hadh__title {
+    margin-bottom: 60px;
+    font-size: 42px;
+    line-height: 34px;
+    font-weight: 600;
+    text-align: center;
+}
+.small-hadh__box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.small-hadh__box-item {
+    flex-basis: 275px;
+}
+.small-hadh__box-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.small-hadh__box-title {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.small-hadh__box-text {
+    font-size: 16px;
+}
+
+
+
+
+
+/* document */
+.document {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    color: $black;
+}
+
+.document__title {
+    margin-bottom: 85px;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+}
+.document__block {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+}
+.document__block-item {
+    width: 295px;
+}
+.document__block-img {
+    margin-bottom: 40px;
+}
+.document__block-title {
+    width: 170px;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+}
+.document__block-text {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+.umra{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: $black;
+}
+
+.umra__block {
+   margin-bottom: 110px;
+}
+.umra__block-title {
+    max-width: 980px;
+    margin-bottom: 65px;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.umra__block-content {
+    display: flex;
+    justify-content: space-between;
+}
+.umra__block-wrapper.umra__block-wrapper-even{
+    order: -1;
+}
+.umra__block-text {
+    margin-left: 90px;
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.umra__block-text.umra__block-text-even{
+    margin-left: 0;
+}
+.umra__block-img{
+    border: 1px solid #d2a23a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* hadh-tour */
+.hadh-tour{
+    color:$black;
+    padding-top: 115px;
+}
+.hadh-tour__title {
+    margin-bottom: 60px;
+    max-width: 1070px;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hadh-tour__text {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.hadh-tour__img {
+    margin-bottom: 120px;
+}
+.hadh-tour__subtitle {
+    margin-bottom: 70px;
+    max-width: 1200px;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+.hadh-tour__block {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.hadh-tour__block-item {
+    max-width: 630px;
+    margin-bottom: 100px;
+}
+.hadh-tour__block-img {
+    border: 1px solid #d2a23a;
+    padding: 20px;
+    border-radius: 20px;
+}
+.hadh-tour__block-title {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.hadh-tour__block-text {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+
+/* parther */
+.parther{
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+.parther__title{
+    margin-bottom: 150px;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: $black;
+}
+.parther__box{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+    column-gap: 200px;
+    row-gap: 50px;
+}
+.parther__box img{
+    max-width: 300px;
+}
+
+
+

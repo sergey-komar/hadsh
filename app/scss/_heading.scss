@@ -3,6 +3,15 @@
     background-size: cover;
     min-height: 100vh;
 }
+.feedback.feedback-contact{
+    background: url('../images/home/contact-bg.jpg') no-repeat center;
+    background-size: cover;
+    color: $black;
+}
+.feedback__block-phone.feedback__block-phone--contact,
+.feedback__block-email.feedback__block-phone--contact{
+    color: $black;
+}
 .heading__block {
     text-align: center;
 }
@@ -16,6 +25,7 @@
 .heading__title {
     margin-bottom: 30px;
     font-size: 68px;
+    line-height: 75px;
     font-weight: 700;
     color: #d2a23a;
 }
@@ -71,4 +81,60 @@
     height: 58px;
     border-radius: 30px;
     border: none;
+}
+
+@media(max-width:1100px){
+    .header__logo{
+        display: none;
+    }
+}
+
+@media(max-width:676px){
+    .heading__title{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .heading__text{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .heading__subtitle{
+        font-size: 18px;
+    }
+    .heading__form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading__form-title{
+        font-size: 20px;
+    }
+    .heading__form-text{
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media(max-width:450px){
+    .heading__title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .heading__text{
+        line-height: 23px;
+        font-size: 15px;
+}
+.heading__subtitle{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.form__input,
+.form__btn{
+    width: 260px;
+    height: 45px;
+}
+.logo-mobile{
+    width: 170px;
+}
 }

@@ -1,0 +1,62 @@
+.pillars{
+    background-image: url('../images/home/pillars/pillars-bg.jpg');
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+// .pillars::before{
+//     content: '';
+//     position: absolute;
+//     width: 950px;
+//     height: 390px;
+//     background: url('../images/home/pillars/Фигура 531.png') no-repeat center;
+//     top: 35%;
+//     left: 22%;
+// }
+// .pillars__bottom-inner--bef{
+//     margin-left: 110px;
+// }
+.pillars__title {
+    margin-bottom: 90px;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+}
+.pillars__top {
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+.pillars__top-item,
+.pillars__bottom-item {
+    max-width: 470px;
+}
+.pillars__top-inner,
+.pillars__bottom-inner {
+    display: flex;
+}
+
+.pillars__top-content,
+.pillars__bottom-content {
+    margin-left: 30px;
+}
+.pillars__top-title,
+.pillars__bottom-title {
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: 600;
+}
+.pillars__top-text,
+.pillars__bottom-text {
+    line-height: 28px;
+}
+.pillars__bottom{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 170px;
+}
+
+.pillars__bottom-img,
+.pillars__top-img {
+    object-fit: contain;
+}
+
