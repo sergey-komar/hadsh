@@ -48,3 +48,30 @@
 .questions-accardion__content {
     display: none;
 }
+
+
+
+@media(max-width:500px){
+    .questions__title{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    } 
+    .questions{
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .questions__wrapper{
+        padding: 10px;
+    }
+    .questions-accardion__title::before{
+        top: 6px;
+    }
+    .questions-accardion__title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .questions-accardion__btn{
+        margin-bottom: 0;
+    }
+}

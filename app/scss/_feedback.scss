@@ -4,8 +4,7 @@
     background: url('../images/home/uzor-form-bg.jpg') no-repeat center;
     background-size: cover;
 }
-.container {
-}
+
 .feedback__title {
     margin-bottom: 100px;
     font-size: 42px;
@@ -17,8 +16,7 @@
     display: flex;
     justify-content: space-between;
 }
-.feedback__block-item {
-}
+
 .feedback__block-info {
     margin-bottom: 60px;
 }
@@ -32,8 +30,7 @@
     font-weight: 700;
     color: $white;
 }
-.feedback__block-email {
-}
+
 .feedback__block-social {
     display: flex;
 }
@@ -54,8 +51,7 @@
     font-size: 24px;
     line-height: 35px;
 }
-.feedback-form {
-}
+
 .feedback-form__input {
     margin-bottom: 20px;
     max-width: 310px;
@@ -78,4 +74,45 @@
     border: none;
     font-size: 18px;
     text-transform: uppercase;   
+}
+
+
+@media(max-width:1050px){
+.feedback__block{
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media(max-width:1050px){
+    .feedback__title{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .feedback{
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .feedback__block-info{
+        margin-bottom: 25px;
+    }
+    .feedback__block-sity{
+        margin-bottom: 0;
+    }
+    .feedback__block-phone,
+    .feedback__block-email{
+    font-size: 18px;
+}
+    .feedback-block__title{
+    font-size: 18px;
+    line-height: 24px;
+}
+    .feedback-form__input,
+    .feedback-form__btn{
+        height: 45px;
+        font-size: 16px;
+}
+.feedback__block-social{
+    margin-top: 10px;
+}
 }

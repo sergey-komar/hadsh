@@ -58,12 +58,100 @@ blockquote{
     margin-left: auto;
     margin-right: auto;
 }
+.hadh__blockquote{
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 665px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hadh__blockquote::before,
+.hadh__blockquote::after{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+  
+}
+.hadh__blockquote::before{
+    background: url('../images/home/kovichki-left.png') no-repeat;
+    top: 0;
+    left: -50px;
+}
+.hadh__blockquote::after{
+    background: url('../images/home/kovichki-rigth.png') no-repeat;
+    right: 0px;
+}
+
+
+@media(max-width:968px){
+    .hadh__box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hadh__content{
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .hadh__blockquote::before{
+        left: -25px;
+    }
+    .hadh__blockquote::after{
+        right: 20px;
+    }
+    .hadh__blockquote{
+        max-width: 530px;
+    }
+    .hadh__content-text{
+        margin-bottom: 35px;
+    }
+    .hadh{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+@media(max-width:500px){
+    .hadh__blockquote{
+        max-width: 310px;
+    }
+    .hadh__content-text{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .hadh__blockquote::before{
+        left: 0px;
+    }
+    .hadh__blockquote{
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 600;
+    }
+    .hadh__title{
+        margin-top: 50px;
+        margin-bottom: 24px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .hadh__block-text{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    .hadh__block-item{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
 
 
 
 /* smallhadh */
 .small-hadh {
-    background: url('../images/small-hadh/smallhadh-bg.jpg') no-repeat center;
+    background: url('../images/small-hadh/smallhadh-bg.jpg') no-repeat center center;
     background-size: cover;
     padding: 70px;
     border-radius: 30px;
@@ -85,6 +173,7 @@ blockquote{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap;
 }
 .small-hadh__box-item {
     flex-basis: 275px;
@@ -102,6 +191,57 @@ blockquote{
 .small-hadh__box-text {
     font-size: 16px;
 }
+.hadh__blockquote{
+    position: relative;
+}
+
+@media(max-width:1200px){
+    .small-hadh{
+        max-width: 1100px;
+    }
+}
+@media(max-width:768px){
+    .small-hadh__text{
+        margin-bottom: 25px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .hadh__block{
+        margin-bottom: 10px;
+    }
+    .small-hadh__box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .small-hadh{
+        padding: 40px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width:500px){
+    .small-hadh__text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .small-hadh__title{
+        margin-bottom: 25px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .small-hadh__box-item{
+        margin-bottom: 15px;
+    }
+    .small-hadh__box-text{
+        line-height: 24px;
+    }
+}
+
+
+
+
 
 
 
@@ -124,6 +264,7 @@ blockquote{
     display: flex;
     justify-content: center;
     column-gap: 70px;
+    flex-wrap: wrap;
 }
 .document__block-item {
     width: 295px;
@@ -141,6 +282,45 @@ blockquote{
     font-size: 18px;
     line-height: 28px;
 }
+
+@media(max-width:1200px){
+    .document{
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+}
+
+
+@media(max-width:700px){
+    .document__block-item{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:500px){
+    .document__title{
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .document{
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .document__block-img {
+        margin-bottom: 10px;
+    }
+    .document__block-title{
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .document__block-text {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
 
 
 
@@ -163,6 +343,7 @@ blockquote{
 .umra__block-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .umra__block-wrapper.umra__block-wrapper-even{
     order: -1;
@@ -181,6 +362,52 @@ blockquote{
     padding: 20px;
     border-radius: 20px;
 }
+
+
+
+@media(max-width:968px){
+    .umra__block-content{
+       flex-direction: column;
+       align-items: center;
+    }
+    .umra__block-text{
+        margin-bottom: 30px;
+    }
+    .umra__block-title{
+        text-align: center;
+    }
+    .umra__block-img{
+        margin-bottom: 30px;
+    }
+    .umra__block{
+        margin-bottom: 40px;
+    }
+   
+}
+
+
+@media(max-width:500px){
+    .umra__block-title{
+        margin-bottom: 15px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .umra{
+        padding-top: 55px;
+        padding-bottom: 0;
+    }
+    .umra__block-text{
+        margin-left: 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .umra__block{
+        margin-bottom: 10px;
+    }
+}
+
+
+
 
 
 
@@ -244,6 +471,35 @@ blockquote{
 }
 
 
+@media(max-width:500px){
+    .hadh-tour__title,
+    .hadh-tour__subtitle,
+    .hadh-tour__block-title{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .hadh-tour{
+        padding-top: 50px;
+    }
+    .hadh-tour__img {
+        margin-bottom: 30px;
+    }
+    .hadh-tour__block-item{
+        margin-bottom: 25px;
+    }
+    .hadh-tour__block-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hadh-tour__block-title{
+        margin-top: 10px;
+    }
+    
+}
+
+
+
 
 
 /* parther */
@@ -269,6 +525,23 @@ blockquote{
 }
 .parther__box img{
     max-width: 300px;
+}
+
+
+
+@media(max-width:500px){
+    .parther__title{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .parther{
+        padding-top: 45px;
+        padding-bottom: 15px;
+    }
+    .parther__box{
+        row-gap: 25px;
+    }
 }
 
 

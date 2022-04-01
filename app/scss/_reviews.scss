@@ -1,12 +1,13 @@
 .reviews{
     padding-top: 120px;
     padding-bottom: 110px;
-    background: url('../images/home/reviews-bg.jpg') no-repeat center;
+    background: url('../images/home/reviews-bg.jpg') repeat-x center;
     background-size: cover;
     color: $black;
 }
 .reviews__title {
     font-size: 42px;
+    line-height: 50px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 90px;
@@ -60,4 +61,38 @@
     background-image: url('../images/home/arrow/right-arrow-info.png');
     background-repeat: no-repeat;
     right: 0;
+}
+
+
+@media(max-width:1100px){
+    .reviews__slider-box{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:500px){
+    .reviews__title{
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .reviews{
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .reviews__content-title{
+        margin-top: 15px;
+    }
+    .slick-prev-reviews::before,
+    .slick-next-reviews::before{
+        top: 23%;
+}
+.reviews__content-subtitle{
+    margin-bottom: 5px;
+}
+.reviews__content-text {
+    line-height: 24px;
+    font-size: 16px;
+}
+
 }

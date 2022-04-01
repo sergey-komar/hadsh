@@ -6,17 +6,27 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 100px;
+    column-gap: 10px;
     row-gap: 35px;
 }
 .icon__block-item {
     flex-basis: 400px;
     display: flex;
     align-items: center;
+    width: 33%;
 }
 .icon__block-text {
     margin-left: 15px;
     font-size: 16px;
     color: $black;
     font-weight: 400;
+}
+
+@media(max-width:500px){
+    .icon__block-text{
+        line-height: 20px;
+    }
+    .icon__block {
+        row-gap: 20px;
+    }
 }

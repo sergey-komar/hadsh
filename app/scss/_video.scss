@@ -20,15 +20,47 @@
 .video-fashion__inner {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
-.video-fashion__popup {
-}
-.video-fashion__play {
-}
+
 .video-fashion__content {
     max-width: 495px;
     margin-right: 185px;
 }
 .video-fashion__text {
     margin-bottom: 40px;
+}
+
+
+
+@media(max-width:1300px){
+    .video-fashion__content{
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .video-fashion__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:500px){
+    .video-fashion__title{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .video-fashion{
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    .video-fashion__subtitle{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .video-fashion__text{
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
