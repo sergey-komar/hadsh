@@ -22,6 +22,7 @@
 .footer__inner-box {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer__inner-item {
     max-width: 300px;
@@ -35,8 +36,7 @@
     line-height: 26px;
     font-style: italic;
 }
-.footer__menu {
-}
+
 .footer__menu-item {
     margin-bottom: 25px;
 }
@@ -76,4 +76,84 @@
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer__company img {
+    margin-bottom: 15px;
+}
+.footer__inner-social--desctop{
+    display: none;
+}
+.footer-mobile__company{
+    display: none;
+}
+
+
+@media(max-width:500px){
+    .footer__title{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .footer__inner-item.footer__inner-item-desctop{
+        display: none;
+    }
+    .footer__inner-item.footer__menu{
+        display: none;
+    }
+    .footer__inner-item,
+    .footer__inner-social--desctop{
+        margin-left: 40px;
+    }
+    .footer__inner-social--desctop{
+        margin-top: 15px;
+    }
+    .footer__inner-social--desctop img{
+        margin-right: 15px;
+    }
+    .footer{
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+    .footer__company{
+        display: none;
+    }
+    .footer__inner-item.footer__inner-item--questions{
+        margin-left: 0;
+    }
+    .footer__inner-info{
+        margin-bottom: 10px;
+    }
+    .footer__inner-sity{
+        margin-bottom: 0;
+    }
+    .footer-mobile__company {
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 35px;
+        color: #72acc1;
+    }
+    .footer-mobile__top {
+        padding-bottom: 30px;
+        display: flex;
+        justify-content:space-around;
+        border-bottom: 1px solid #72acc1;
+    }
+    .footer-mobile__top img{
+        object-fit: contain;
+    }
+    .footer-mobile__bottom  {
+        object-fit: cover;
+        margin-top: 30px;
+    }
+    .footer__inner-item{
+        margin-left: 0;
+    }
+    .footer__inner-box{
+        position: relative;
+        z-index: 10;
+    }
 }

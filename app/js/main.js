@@ -74,6 +74,10 @@ $('.questions-accardion__btn').on('click', function(){
     $(this).next().slideToggle(500); 
  });
 
+ $('.cart__wrapper-border').on('click', function(){
+    $(this).next().slideToggle(200); 
+ });
+
 
  // Попап
  $('.video-fashion__play').magnificPopup({
